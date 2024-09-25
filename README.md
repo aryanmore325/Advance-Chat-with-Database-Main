@@ -23,8 +23,8 @@ This project demonstrates a secure method of generating SQL queries using LangCh
 
 1. Clone this repository:
    ```
-   git clone https://github.com/aryanmore325/advanced-chat-with-db.git
-   cd advanced-chat-with-db
+   git clone https://github.com/aryanmore325/Advance-Chat-with-database.git
+   cd Advance-Chat-with-database
    ```
 
 2. Install the required packages:
