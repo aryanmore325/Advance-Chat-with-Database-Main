@@ -23,7 +23,7 @@ This project demonstrates a secure method of generating SQL queries using LangCh
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yoursername/advanced-chat-with-db.git
+   git clone https://github.com/aryanmore325/advanced-chat-with-db.git
    cd advanced-chat-with-db
    ```
 
