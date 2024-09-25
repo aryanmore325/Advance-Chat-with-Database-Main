@@ -174,14 +174,3 @@ def cleanup():
 import atexit
 atexit.register(cleanup)
 
-st.markdown("""
-<div class="footer">
-© Made by Paras Madan
-    <div class="social-links">
-        <a href="https://www.instagram.com/parasmadan.in/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/paras-madan-a9863716b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://twitter.com/ParasMadan9" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://parasmadan.in/" target="_blank"><i class="fas fa-globe"></i></a>
-    </div>
-</div>
-""", unsafe_allow_html=True)
