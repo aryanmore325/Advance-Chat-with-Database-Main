@@ -7,7 +7,6 @@ from db_schema_logic import extract_schema, setup_llm_chain, generate_sql_query
 
 # Set the page title
 st.set_page_config(page_title="SQL Query Generator", page_icon=":mag:")
-
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
