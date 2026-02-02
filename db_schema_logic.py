@@ -1,5 +1,7 @@
 # File: db_schema_logic.py
-
+from langchain import OpenAI, LLMChain
+from langchain.prompts import PromptTemplate
+from sqlalchemy import create_engine, inspect
 
 def extract_schema(db_url):
     """Extract schema from the database without accessing data."""
