@@ -15,7 +15,7 @@ def extract_schema(db_url):
         for column in columns:
             schema_info.append(f"  - {column['name']} ({column['type']})")
     
-   
+    return "\n".join(schema_info)
 
 def setup_llm_chain(openai_api_key):
     """Set up the LangChain components."""
